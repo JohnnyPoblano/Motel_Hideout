@@ -61,10 +61,10 @@ public class HotelHideout{
             System.out.println("Room number " + (i+1) + " has been eliminated due to being divisable by 7.");
          }
          int newRoomNbr = ((i + 1) - ((i + 1) / 10) * 10)*10 + ((i + 1) / 10);
-         if (newRoomNbr > NBR_OF_ROOMS) {
-            array[i] = false;
-            System.out.println("Room number " + i + " has been eliminated due to switched digits not being a valid room number (" + newRoomNbr + ").");
-         }
+         //if (newRoomNbr > NBR_OF_ROOMS) {
+         //   array[i] = false;
+         //   System.out.println("Room number " + i + " has been eliminated due to switched digits not being a valid room number (" + newRoomNbr + ").");
+         //}
       }
       
       for (int i = 0; i < NBR_OF_ROOMS; i ++) {
